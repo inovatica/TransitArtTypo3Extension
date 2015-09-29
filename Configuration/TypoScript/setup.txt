@@ -1,0 +1,32 @@
+
+plugin.tx_transitart {
+	view {
+		templateRootPath = {$plugin.tx_transitart.view.templateRootPath}
+		partialRootPath = {$plugin.tx_transitart.view.partialRootPath}
+		layoutRootPath = {$plugin.tx_transitart.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_transitart.persistence.storagePid}
+	}
+	features {
+		# uncomment the following line to enable the new Property Mapper.
+		# rewrittenPropertyMapper = 1
+	}
+}
+
+page{
+        includeJSFooterlibs{
+            transitartMain = EXT:transit_art/Resources/Public/Js/optimized-module.js
+            transitartMain{
+                disableCompression = 1
+                excludeFromConcatenation = 1
+            }
+        }
+        includeCSS{
+            transitartMain = EXT:transit_art/Resources/Public/Css/main.css
+            transitartMain{
+                disableCompression = 1
+                excludeFromConcatenation = 1
+            }
+        }
+}

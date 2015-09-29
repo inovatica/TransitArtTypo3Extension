@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<T3locallang type="array">
+  <meta type="array">
+    <description/>
+    <type>database</type>
+    <csh_table/>
+    <labelContext type="array"/>
+    <generator>LFEditor</generator>
+  </meta>
+  <data type="array">
+    <languageKey index="default" type="array">
+      <label index="plugin_name">TransitArt</label>
+      <label index="flexform.settings.label">Default</label>
+      <label index="flexforms.choose">--choose--</label>
+      <label index="flexforms.settings.apiKey">City</label>
+      <label index="flexforms.settings.apiKey.auckland">Auckland (New Zealand)</label>
+      <label index="flexforms.settings.apiKey.budapeszt">Budapest (Hungary)</label>
+      <label index="flexforms.settings.apiKey.chicago">Chicago (USA, Illinois)</label>
+      <label index="flexforms.settings.apiKey.lodz">Lodz (Poland)</label>
+      <label index="flexforms.settings.apiKey.sanfrancisco">San Francisco (USA, CA)</label>
+      <label index="flexforms.settings.apiKey.toronto">Toronto (Canada)</label>
+      <label index="flexforms.settings.apiKey.vancouver">Vancouver (Canada)</label>
+      <label index="flexforms.settings.apiKey.warszawa">Warsaw (Poland)</label>
+      <label index="flexforms.settings.state">Type</label>
+      <label index="flexforms.settings.state.router">Search links with timetables</label>
+      <label index="flexforms.settings.state.timetables">Timetables</label>
+    </languageKey>
+    <languageKey index="af"/>
+    <languageKey index="ar"/>
+    <languageKey index="bs"/>
+    <languageKey index="bg"/>
+    <languageKey index="ca"/>
+    <languageKey index="ch"/>
+    <languageKey index="cs"/>
+    <languageKey index="da"/>
+    <languageKey index="de"/>
+    <languageKey index="el"/>
+    <languageKey index="eo"/>
+    <languageKey index="es"/>
+    <languageKey index="et"/>
+    <languageKey index="eu"/>
+    <languageKey index="fa"/>
+    <languageKey index="fi"/>
+    <languageKey index="fo"/>
+    <languageKey index="fr"/>
+    <languageKey index="fr_CA"/>
+    <languageKey index="gl"/>
+    <languageKey index="he"/>
+    <languageKey index="hi"/>
+    <languageKey index="hr"/>
+    <languageKey index="hu"/>
+    <languageKey index="is"/>
+    <languageKey index="it"/>
+    <languageKey index="ja"/>
+    <languageKey index="ka"/>
+    <languageKey index="kl"/>
+    <languageKey index="km"/>
+    <languageKey index="ko"/>
+    <languageKey index="lt"/>
+    <languageKey index="lv"/>
+    <languageKey index="ms"/>
+    <languageKey index="nl"/>
+    <languageKey index="no"/>
+    <languageKey index="pl" type="array">
+      <label index="flexform.settings.label">Domyślne</label>
+      <label index="flexforms.choose">--wybierz--</label>
+      <label index="flexforms.settings.apiKey">Miasto</label>
+      <label index="flexforms.settings.apiKey.auckland">Auckland (Nowa Zelandia)</label>
+      <label index="flexforms.settings.apiKey.budapeszt">Budapeszt (Węgry)</label>
+      <label index="flexforms.settings.apiKey.chicago">Chicago (USA, Illinois)</label>
+      <label index="flexforms.settings.apiKey.lodz">Łódź (Polska)</label>
+      <label index="flexforms.settings.apiKey.sanfrancisco">San Francisco (USA, Kalifornia)</label>
+      <label index="flexforms.settings.apiKey.toronto">Toronto (Kanada)</label>
+      <label index="flexforms.settings.apiKey.vancouver">Vancouver (Kanada)</label>
+      <label index="flexforms.settings.apiKey.warszawa">Warszawa (Polska)</label>
+      <label index="flexforms.settings.state">Typ</label>
+      <label index="flexforms.settings.state.router">Wyszukiwarka połączeń z rozkładami</label>
+      <label index="flexforms.settings.state.timetables">Rozkłady jazdy</label>
+    </languageKey>
+    <languageKey index="pt"/>
+    <languageKey index="pt_BR"/>
+    <languageKey index="ro"/>
+    <languageKey index="ru"/>
+    <languageKey index="sk"/>
+    <languageKey index="sl"/>
+    <languageKey index="sq"/>
+    <languageKey index="sr"/>
+    <languageKey index="sv"/>
+    <languageKey index="th"/>
+    <languageKey index="tr"/>
+    <languageKey index="uk"/>
+    <languageKey index="vi"/>
+    <languageKey index="zh"/>
+  </data>
+</T3locallang>

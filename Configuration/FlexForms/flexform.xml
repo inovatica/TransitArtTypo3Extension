@@ -1,0 +1,90 @@
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+
+    <sheets>
+        <!--
+            ################################
+              Main General Settings
+            ################################
+        -->
+        <General>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexform.settings.label</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <!-- Template Layout -->
+                    <settings.apiKey>
+                        <TCEforms>
+                            <label>LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexforms.settings.apiKey</label>
+                            <config>
+                                <type>select</type>
+                                <items>
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexforms.settings.apiKey.auckland</numIndex>
+                                        <numIndex index="1">auckland</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexforms.settings.apiKey.budapeszt</numIndex>
+                                        <numIndex index="1">budapeszt</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexforms.settings.apiKey.chicago</numIndex>
+                                        <numIndex index="1">chicago</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexforms.settings.apiKey.lodz</numIndex>
+                                        <numIndex index="1">lodz</numIndex>
+                                    </numIndex>
+                                    <numIndex index="4" type="array">
+                                        <numIndex index="0">LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexforms.settings.apiKey.sanfrancisco</numIndex>
+                                        <numIndex index="1">sanfrancisco</numIndex>
+                                    </numIndex>
+                                    <numIndex index="5" type="array">
+                                        <numIndex index="0">LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexforms.settings.apiKey.toronto</numIndex>
+                                        <numIndex index="1">toronto</numIndex>
+                                    </numIndex>
+                                    <numIndex index="6" type="array">
+                                        <numIndex index="0">LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexforms.settings.apiKey.vancouver</numIndex>
+                                        <numIndex index="1">vancouver</numIndex>
+                                    </numIndex>
+                                    <numIndex index="7" type="array">
+                                        <numIndex index="0">LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexforms.settings.apiKey.warszawa</numIndex>
+                                        <numIndex index="1">warszawa</numIndex>
+                                    </numIndex>
+                                </items>
+                                <default>lodz</default>
+                            </config>
+                        </TCEforms>
+                    </settings.apiKey>
+                    <!-- Template Layout -->
+                    <settings.state>
+                        <TCEforms>
+                            <label>LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexforms.settings.state</label>
+                            <config>
+                                <type>select</type>
+                                <items>
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexforms.choose</numIndex>
+                                        <numIndex index="1"></numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexforms.settings.state.timetables</numIndex>
+                                        <numIndex index="1">timetables</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">LLL:EXT:transit_art/Resources/Private/Language/locallang_be.xml:flexforms.settings.state.router</numIndex>
+                                        <numIndex index="1">router</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.state>
+                </el>
+            </ROOT>
+        </General>
+    </sheets>
+</T3DataStructure>
